@@ -58,6 +58,11 @@ dependencies {
     testRuntime "org.seleniumhq.selenium:selenium-chrome-driver:2.47.1"
     testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
+
+    compile "org.apache.poi:poi:3.8"
+    compile "org.apache.poi:poi-ooxml:3.8"
+    compile "org.apache.poi:poi-ooxml-schemas:3.8"
+
 }
 
 bootRun {
