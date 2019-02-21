@@ -12,6 +12,12 @@ import java.io.*;
 **/
 public class Question1{
     
+    /**
+    * A sample return list look like this:
+    * ['Player1', 'Player2', 'Player5']
+    * 
+    */
+
     public static List playerGames(File file){
         Map<String, String> map = new LinkedHashMap<>();
         List <String> set  = new ArrayList<>();
