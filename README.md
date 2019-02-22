@@ -3,4 +3,5 @@ The use of this project is to help the participants of Poorna program validate t
 
 ### How to run the test cases
 
-From the root directory of the project execute: `./gradlew test -Dtest.single=Question1`
+From the root directory of the project: 
+To execute the test case for Class Question1 in package `athletes` use the command: `./gradlew test -Dtest.single='*athletes/Question1'`
