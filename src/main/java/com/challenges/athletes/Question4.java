@@ -14,8 +14,6 @@ public class Question4 {
     
     /**
     * A sample return data is an int
-    * 
-    * 
     */
     public static int medalCount(File file, String playerName){
         return 0;//return the medal count
