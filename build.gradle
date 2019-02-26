@@ -86,4 +86,9 @@ task unzip(type: Copy) {
     into outputDir
 }
 
+test {
+    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
+}
+
 test.dependsOn unzip
