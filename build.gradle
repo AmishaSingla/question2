@@ -86,7 +86,7 @@ tasks.withType(Test) {
 }
 
 task unzip(type: Copy) {
-    def jarFile = file("${project.projectDir}/lib/poorna-tests-0.1.jar")
+    def jarFile = file("${project.projectDir}/lib/poorna-service-0.1.jar")
     def outputDir = file("${buildDir}/classes/test/")
     from zipTree(jarFile)
     into outputDir
