@@ -99,4 +99,19 @@ test {
     systemProperties System.getProperties()
 }
 
+//https://docs.gradle.org/current/userguide/java_testing.html#test_filtering
+task withone(type: Test){
+    filter {
+        //include specific method in any of the tests
+        includeTestsMatching "*Question1*"
+
+        //include all tests from package
+        // includeTestsMatching "org.gradle.internal.*"
+
+        //include all integration tests
+        // includeTestsMatching "*IntegTest"
+    }
+}
+
 test.dependsOn unzip
+withone.dependsOn unzip
