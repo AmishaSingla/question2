@@ -10,7 +10,7 @@ buildscript {
     }
 }
 
-version "0.1"
+version appVersion
 group "poorna.challenges"
 
 apply plugin:"eclipse"
@@ -70,6 +70,7 @@ dependencies {
     compile name: 'poorna-base-0.1'
 
     compile "com.google.code.gson:gson:2.8.5"
+    compile 'org.grails.plugins:version-update:2.0.0'
 
 }
 
