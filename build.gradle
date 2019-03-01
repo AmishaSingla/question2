@@ -69,6 +69,8 @@ dependencies {
 
     compile name: 'poorna-base-0.1'
 
+    compile "com.google.code.gson:gson:2.8.5"
+
 }
 
 bootRun {
