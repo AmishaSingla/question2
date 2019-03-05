@@ -7,6 +7,14 @@ import com.google.gson.JsonParser;
 import java.util.*;
 import java.io.*;
 
+import java.text.SimpleDateFormat;
+import java.text.DateFormat;
+import java.util.Date;
+import java.sql.Timestamp;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 /*
 * Run the command from the root directory of this project to validate if this Question is answered correctly
 * './gradlew test -Dtest.single='*chelog/Question1''
@@ -19,7 +27,7 @@ public class Question1{
     * final result of downtime should be in this format 15 . It should not be like 15.45, 16.00.
     * eg: return 15
     */
-    public static int downtime(File file, String intern) {
+    public static int downtime(File file, String intern, Date fromDate, Date toDate) {
         return 0; //return the calculated time.
     }
 }
