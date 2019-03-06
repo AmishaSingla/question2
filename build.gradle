@@ -67,6 +67,10 @@ dependencies {
     compile "org.apache.poi:poi-ooxml:3.8"
     compile "org.apache.poi:poi-ooxml-schemas:3.8"
 
+    compile "org.glassfish.jersey.core:jersey-client:2.28"
+    compile "org.glassfish.jersey.core:jersey-common:2.28"
+    compile "org.glassfish.jersey.inject:jersey-hk2:2.28"
+
     compile name: 'poorna-base-0.1'
 
     compile "com.google.code.gson:gson:2.8.5"
@@ -116,3 +120,19 @@ task withone(type: Test){
 
 test.dependsOn unzip
 withone.dependsOn unzip
+
+task whoami () {
+    doLast {
+        println "Please state your email id known to Vivasa Administrator:"
+        println "This script is WAITING for your input. Please press <ENTER> after you type your email id!"
+        println "..\n \n \n"
+        def sc = System.in.newReader().readLine()
+        if(sc){
+            println "\n\n\ngot ${sc.toString()}"
+            println "\n\n\nThanks for providing your email. This folder will now be configured with your identity and you will not be asked to provide this information again!"
+            (new File(projectDir.toString()+"/src/main/resources", ".poornaid")).text = sc
+        }
+
+        println "$projectDir"
+    }
+}
