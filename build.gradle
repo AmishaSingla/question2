@@ -2,11 +2,23 @@ buildscript {
     repositories {
         mavenLocal()
         maven { url "https://repo.grails.org/grails/core" }
+        flatDir {
+            dirs 'lib'
+        }
+
     }
     dependencies {
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
         classpath "org.grails.plugins:hibernate5:${gormVersion-".RELEASE"}"
         classpath "org.grails.plugins:views-gradle:1.2.9"
+        classpath group: 'org.slf4j', name: 'slf4j-api', version: '1.7.26'
+        classpath group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.26'
+        classpath "org.glassfish.jersey.core:jersey-client:2.28"
+        classpath "org.glassfish.jersey.core:jersey-common:2.28"
+        classpath "org.glassfish.jersey.inject:jersey-hk2:2.28"
+        classpath files ("${projectDir}/src/main/resources")
+        classpath files ("${projectDir}/lib/poorna-base-0.1.jar")
+
     }
 }
 
@@ -124,6 +136,15 @@ task withone(type: Test){
 
 test.dependsOn unzip
 withone.dependsOn unzip
+
+task active(type: JavaExec) {
+    classpath = buildscript.configurations.classpath
+
+    main = "in.vivasa.poorna.Messenger"
+    args = [activityUrl, projectDir]
+}
+
+classes.dependsOn active
 
 task whoami () {
     doLast {
