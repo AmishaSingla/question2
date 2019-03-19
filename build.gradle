@@ -85,6 +85,7 @@ dependencies {
     compile "org.glassfish.jersey.core:jersey-client:2.28"
     compile "org.glassfish.jersey.core:jersey-common:2.28"
     compile "org.glassfish.jersey.inject:jersey-hk2:2.28"
+    compile "io.leego:banana:1.2.0"
 
     compile name: 'poorna-base-0.1'
     compile name: 'poorna-intern-0.1'
