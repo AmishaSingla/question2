@@ -8,6 +8,7 @@ import java.util.*;
 import java.io.*;
 
 import com.challenges.chelog1.*;
+import com.challenges.tutor.chelog1.*;
 /**
 *2).Given a log file, read the first line and parse it to a JSON 
 *   Object and print the value of the property "timestamp"
@@ -15,7 +16,12 @@ import com.challenges.chelog1.*;
 * './gradlew test -Dtest.single='*chelog1/Question2''
 */
 public class Question2_Solution {
-    final static String solve(File file) {  
+    /**
+    * A sample return Map look like this:
+    * ["words":"2019-01-23T05:53:18.826218384Z"]
+    * 
+    */
+    public static Map solve(File file) {  
         //YOUR CODE GOES HERE
         return null;
     }

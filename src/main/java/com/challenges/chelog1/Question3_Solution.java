@@ -11,6 +11,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 import com.challenges.chelog1.*;
+import com.challenges.tutor.chelog1.*;
 /**
 *3).Given a log file, read the first line and parse it to a JSON
 *   Object and read the timestamp property and parse it to a LocalDateTime Object
@@ -18,7 +19,13 @@ import com.challenges.chelog1.*;
 * './gradlew test -Dtest.single='*chelog1/Question3''
 */
 public class Question3_Solution{
-    final static LocalDateTime solve(File file){
+    /**
+    * A sample return Map look like this:
+    * 
+    * ["words":2019-01-23T05:53:18.826218384Z]
+    * 
+    */
+    public static Map solve(File file){
         //YOUR CODE GOES HERE
          return null;
     }
