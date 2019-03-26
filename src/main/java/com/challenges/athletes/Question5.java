@@ -6,11 +6,6 @@ import java.io.*;
 import org.apache.poi.xssf.usermodel.*;
 import org.apache.poi.ss.usermodel.*;
 
-/**
-* Run the command from the root directory of this project to validate if this Question is answered correctly
-* './gradlew test -Dtest.single=Question5'
-**/
-
 public class Question5 {
     
     /**
