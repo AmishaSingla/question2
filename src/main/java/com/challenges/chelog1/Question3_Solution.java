@@ -26,6 +26,6 @@ public class Question3_Solution{
     */
     public static Map solve(File file){
         //YOUR CODE GOES HERE
-         return new Question3_Tutor().solve(file);
+         return null;
     }
 }
