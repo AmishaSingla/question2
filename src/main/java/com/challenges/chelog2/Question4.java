@@ -1,4 +1,4 @@
-package com.challenges.chelog;
+package com.challenges.chelog2;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;

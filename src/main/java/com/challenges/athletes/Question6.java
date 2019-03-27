@@ -5,12 +5,11 @@ import java.io.*;
 import java.util.*;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.*;
-
 /**
+*6).Based on the attached spreadsheet data, write a program to print thenames of Host cities .
 * Run the command from the root directory of this project to validate if this Question is answered correctly
-* './gradlew test -Dtest.single=Question6'
+* './gradlew test -Dtest.single='*athletes/Question6''
 **/
-
 public class Question6 {
     
     /**
