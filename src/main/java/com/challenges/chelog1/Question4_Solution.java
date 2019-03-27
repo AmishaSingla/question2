@@ -27,6 +27,6 @@ public class Question4_Solution {
     */
     public static Map solve(File file, String internName, LocalDate date) {
         //YOUR CODE GOES HERE
-      return new Question4_Tutor().solve(file,internName,date);
+      return null;
     }
 }
