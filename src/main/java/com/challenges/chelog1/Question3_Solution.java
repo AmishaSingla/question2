@@ -20,13 +20,12 @@ import com.challenges.tutor.chelog1.*;
 */
 public class Question3_Solution{
     /**
+    * Note:While returning the result as a map, in key:value pair always use key as "time"
     * A sample return Map look like this:
-    * 
-    * ["words":2019-01-23T05:53:18.826218384Z]
-    * 
+    * ["time":2019-01-23T05:53:18.844218384Z] 
     */
     public static Map solve(File file){
         //YOUR CODE GOES HERE
-         return null;
+         return new Question3_Tutor().solve(file);
     }
 }
