@@ -21,8 +21,9 @@ import com.challenges.tutor.chelog1.*;
 */
 public class Question4_Solution {
     /**
+    * Note:While returning the result as a map, in key:value pair always use key as "min"
     * A sample return Map look like this:
-    * ["words":20] 
+    * ["min":344] 
     */
     public static Map solve(File file, String internName, LocalDate date) {
         //YOUR CODE GOES HERE
