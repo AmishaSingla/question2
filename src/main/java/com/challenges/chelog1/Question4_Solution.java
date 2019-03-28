@@ -17,7 +17,7 @@ import com.challenges.tutor.chelog1.*;
 *4).Given two events(Start and stop event for the workspace of an intern) from a log file,
 *   calculate the time difference between the two events in number of minutes.
 * Run the command from the root directory of this project to validate if this Question is answered correctly
-* './gradlew test -Dtest.single='*chelog4/Question4''
+* './gradlew test -Dtest.single='*chelog1/Question4''
 */
 public class Question4_Solution {
     /**

@@ -17,7 +17,7 @@ public class Question1_Solution {
     /**
     * Note:While returning the result as a map, in key:value pair always use key as "words"
     * A sample return Map look like this:
-    * ["words":"word1", "words":"word2"]
+    * ["words":["one", "two"]]
     */
     public static Map solve(File file){
       //YOUR CODE GOES HERE
