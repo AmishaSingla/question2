@@ -14,9 +14,9 @@ import com.challenges.collegemajor.*;
 
 public class Question3_Solution {
     /**
-    *Note:While returning the result as a map, in key:value pair always use key as "count"
+    *Note:While returning the result as a map, in key:value pair always use key as "grandtotal"
     * A sample return Map look like this:
-    * ["count":45]
+    * ["grandtotal":453456]
     * 
     */
     public static Map solve(File file){
