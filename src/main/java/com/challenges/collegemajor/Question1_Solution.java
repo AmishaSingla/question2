@@ -4,7 +4,6 @@ import java.util.*;
 import java.io.*;
 
 import com.challenges.collegemajor.*;
-//import com.challenges.tutor.collegemajor.*;
 
 /*
 * 1).Write a program to list all the Major(s) present in the data sheet.       

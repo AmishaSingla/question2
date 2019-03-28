@@ -20,7 +20,8 @@ import com.challenges.tutor.chelog1.*;
 */
 public class Question3_Solution{
     /**
-    * Note:While returning the result as a map, in key:value pair always use key as "time"
+    * Note:While returning the result as a map, in key:value pair always use key as "time" and 
+    * LocalDateTime format should be like this "yyyy-MM-dd'T'HH:mm:ss.SSSSSSSSS'Z'" 
     * A sample return Map look like this:
     * ["time":2019-01-23T05:53:18.844218384Z] 
     */
