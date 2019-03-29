@@ -2,12 +2,12 @@ package com.challenges.collegemajor;
 
 import java.util.*;
 import java.io.*;
-
+import org.apache.poi.xssf.usermodel.*;
+import org.apache.poi.ss.usermodel.*;
 import com.challenges.collegemajor.*;
-//import com.challenges.tutor.collegemajor.*;
 
 /*
-* 3).What is the grand total count of all graduates?       
+* 3).What is the grand total of all graduates?       
 * Run the command from the root directory of this project to validate if this Question is answered correctly
 * './gradlew test -Dtest.single='*collegemajor/Question3''
 */
