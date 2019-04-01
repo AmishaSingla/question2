@@ -8,6 +8,7 @@ import java.util.*;
 import java.io.*;
 
 import com.challenges.chelog1.*;
+import com.challenges.tutor.athletes.Question1_Tutor;
 import com.challenges.tutor.chelog1.*;
 /**
 *2).Given a log file, read the first line and parse it to a JSON 
