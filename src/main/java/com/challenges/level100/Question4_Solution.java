@@ -15,7 +15,6 @@ public class Question4_Solution{
     * [Hot Palayok:100 USD, Denny's:190 USD] 
     */
     public static Map solve(List restaurants,List cost){
-
-       return null;
+       return new Question4_Tutor().solve(restaurants, cost);
     }
 }

@@ -14,7 +14,7 @@ public class Question2_Solution {
     /**
     *Note:While returning the result as a map, in key:value pair always use key as "subList"
     * A sample return Map look like this:
-    * ["subList":["Congress","practice",..]
+    * ["subList":["Congress","practice",..]]
     */
     public static Map solve(List words) {  
         //YOUR CODE GOES HERE
