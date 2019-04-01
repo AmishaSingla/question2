@@ -1,4 +1,4 @@
-package com.challenges.tutor.level100;
+package com.challenges.level100;
 
 import java.util.*;
 import java.io.*;
