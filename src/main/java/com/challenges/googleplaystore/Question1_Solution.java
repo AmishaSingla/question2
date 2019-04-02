@@ -17,9 +17,9 @@ public class Question1_Solution{
     /**
     *Note:While returning the result as a map, in key:value pair always use key as "appsName"
     * A sample return Map look like this:
-    * ["appsName":["EVENTS",..]]
+    * {"appsName":["EVENTS",..]}
     */
-    
+
     public static Map solve(File file){
       //YOUR CODE GOES HERE
       return null;

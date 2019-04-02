@@ -17,9 +17,15 @@ public class Question4_Solution{
     /**
     * Note:While returning the result as a map, in key:value pair always use key as "appsName"
     * A sample return Map look like this:
+<<<<<<< f4ee5d9c0f240b19920f108d3b9ef27fc2123c4e
     * ["appsName":["Emmabodafestivalen",..]]
     */
     
+=======
+    * {"appsName":["Emmabodafestivalen",..]}
+    */
+
+>>>>>>> bugfixed in googleplaystore
     public static Map solve(File file){
       //YOUR CODE GOES HERE
       return null;

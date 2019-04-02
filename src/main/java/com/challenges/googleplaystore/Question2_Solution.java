@@ -1,7 +1,7 @@
 package com.challenges.googleplaystore;
 
 import java.io.*;
-import java.util.*; 
+import java.util.*;
 
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.*;
@@ -17,9 +17,9 @@ public class Question2_Solution{
     /**
     *Note:While returning the result as a map, in key:value pair always use key as "appsCategory"
     * A sample return Map look like this:
-    * ["appsCategory":["GO Notifier",..]]
+    * {"appsCategory":["GO Notifier",..]}
     */
-    
+
     public static Map solve(File file){
       //YOUR CODE GOES HERE
       return null;
