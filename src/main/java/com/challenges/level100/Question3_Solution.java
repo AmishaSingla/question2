@@ -3,7 +3,7 @@ import java.util.*;
 import java.io.*;
 import com.challenges.tutor.level100.*;
 /**
-*3) You will be provided with two lists. One will contain the names
+*3).Look at the sample table below. You will be provided with two lists. One will contain the names
 *   of the restaurants and the other list will contain its respective cost for 2 people in USD. Store *   all the provided data in a Map and return the Map.
 * Run the command from the root directory of this project to validate if this Question is answered
 * correctly
