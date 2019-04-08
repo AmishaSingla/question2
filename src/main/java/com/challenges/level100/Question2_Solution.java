@@ -3,7 +3,6 @@ package com.challenges.level100;
 import java.util.*;
 import java.io.*;
 
-import com.challenges.tutor.level100.*;
 /**
 *2).Given a list of names, make a sublist with elements which have more than 4 characters.
 *   ['The', 'practice', 'has', 'been' ,'repeatedly' ,'endorsed' ,'by' ,'Congress']

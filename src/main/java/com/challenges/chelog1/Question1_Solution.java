@@ -3,9 +3,6 @@ package com.challenges.chelog1;
 import java.util.*;
 import java.io.*;
 
-import com.challenges.chelog1.*;
-import com.challenges.tutor.chelog1.*;
-
 /*
 * 1).Given a text file as an input, read first the 2 lines of the file and return the last word
 *    of each line (excluding punctuation) as a list

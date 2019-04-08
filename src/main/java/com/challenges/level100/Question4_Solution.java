@@ -3,7 +3,6 @@ package com.challenges.level100;
 import java.util.*;
 import java.io.*;
 
-import com.challenges.tutor.level100.*;
 /**
 *4).Given two lists with restaurant names and their respective cost for 2 people, store all the data
 *  in a Map and return a smaller map with details of only those restaurants whose cost for 2 is less *  than USD 200.

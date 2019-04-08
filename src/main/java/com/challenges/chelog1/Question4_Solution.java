@@ -11,8 +11,6 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-import com.challenges.chelog1.*;
-import com.challenges.tutor.chelog1.*;
 /**
 *4).Given two events(Start and stop event for the workspace of an intern) from a log file,
 *   calculate the time difference between the two events in number of minutes.
