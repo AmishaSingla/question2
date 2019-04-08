@@ -17,7 +17,7 @@ public class Question3_Solution{
     /**
     * Note:While returning the result as a map, in key:value pair always use key as "worldPopulation"
     * A sample return Map look like this:
-    * {worldPopulation:1258974}
+    * {"worldPopulation":1258974}
     */
 
     public static Map solve(File file){

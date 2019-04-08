@@ -1,14 +1,14 @@
 package com.challenges.collegemajor;
 
-import java.util.*;
 import java.io.*;
+import java.util.*;
+
 import org.apache.poi.xssf.usermodel.*;
 import org.apache.poi.ss.usermodel.*;
-import com.challenges.collegemajor.*;
 
 /*
 * 2).Write a program to list all Unique Major_Category(ies) present in the data sheet.
-* Run the command from the root directory of this project to validate if this Question is answered 
+* Run the command from the root directory of this project to validate if this Question is answered
 * correctly
 * './gradlew test -Dtest.single='*collegemajor/Question2''
 */

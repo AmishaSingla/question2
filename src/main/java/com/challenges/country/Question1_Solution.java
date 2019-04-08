@@ -17,7 +17,7 @@ public class Question1_Solution{
     /**
     * Note:While returning the result as a map, in key:value pair always use key as "countryName"
     * A sample return Map look like this:
-    * {countryName:[India, Spain, Croatia,...]}
+    * {"countryName":["India", "Spain", "Croatia",...]}
     */
 
     public static Map solve(File file){

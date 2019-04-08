@@ -1,10 +1,10 @@
 package com.challenges.collegemajor;
 
-import java.util.*;
 import java.io.*;
-import org.apache.poi.xssf.usermodel.*;
+import java.util.*;
+
 import org.apache.poi.ss.usermodel.*;
-import com.challenges.collegemajor.*;
+import org.apache.poi.xssf.usermodel.*;
 
 /*
 * 4).Given the name of a Major category, write a program to find the list of all majors offered in

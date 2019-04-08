@@ -6,8 +6,6 @@ import java.util.*;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.*;
 
-import com.challenges.tutor.country.*;
-
 /*
 * 2).Write a program to count the number of Countries present in the data sheet.
 * Run the command from the root directory of this project to validate if this Question is answered correctly
