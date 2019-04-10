@@ -42,14 +42,15 @@ Git installation on windows
       (Note : you should be familiar with basic linux commands)
 
     
-    To install git on windows , in browser search like “git for windows”. And download git  
+    To install git on windows , in browser search  “git for windows”. And download git  
     for windows. (or) By using the following link you can download.
     
     https://git-scm.com/download/win
     
-    After downloading git . { in installation process you can get "select components" window
-    there you need to select 'git bash' and 'on the desktop' (it will provide desktop icon for git bash) }
-    install it on your local machine by clicking ‘Next’ until you encounter ‘Finish’ option.
+    After downloading git .install it on your local machine by clicking ‘Next’ until you encounter ‘Finish’ option.
+    Refer the following link to install Git & Git bash
+    
+    https://www.google.com/search?ei=t8GtXNSHDpKymAXyiKOoDQ&q=how+to+install+git+along+with+gitbash+on+windows&oq=how+to+install+git+along+with+gitbash+on+windows&gs_l=psy-ab.3..33i10.82472.97831..100088...0.0..0.133.3228.2j27......0....1..gws-wiz.......0i71j0i13j0i13i30j0j0i7i30j0i8i7i30j0i8i30.-0EmIwpU2uU#kpvalbx=1
     
     git bash provides you a terminal(so you can work from git bash like linux terminal).
 
@@ -68,7 +69,7 @@ Git installation on windows
         
             * git clone https://git.vivasa.in/vivasa-open/poorna-client-be.git
         
-    Next step enter in to that project by using (cd projectname/). Now make sure you are in
+    Next step is to enter into that project by using (cd projectname/). Now make sure you are in
     that project , next you need to perform the following command .
         
             * ./gradlew whoami
@@ -162,12 +163,12 @@ Git installation on windows
    
         * git clone https://git.vivasa.in/vivasa-open/poorna-client-be.git
    
- Next step enter in to that project by using (cd projectname/). Now make sure you are in
- that project , next you need to perform the following command .
+ Next step is to enter into that project by using (cd projectname/). Now make sure you are in
+ that project and perform the following command .
 
         * ./gradlew whoami
                 
- Type the above command and press enter it will ask for email id . enter your email id and press enter.
+ Type the above command and press enter. It will ask for email id , enter your email id and press enter.
  Now start working with our project in your local machine.
 
 
