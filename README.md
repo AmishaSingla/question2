@@ -43,6 +43,39 @@
 
 #### Linux
 
+ Git installation on Linux :
+ 
+ Debian/Ubuntu
+ 
+    For the latest stable version for your release of Debian/Ubuntu
+    
+    # sudo apt-get update
+    # sudo apt-get install git 
+    
+ Fedora
+ 
+    # sudo yum update 
+    # sudo yum install git (up to Fedora 21)
+    # sudo dnf install git (Fedora 22 and later)
+
+ By using the above commands you can install git in your linux machine. Now you can check the version of git (whether it got installed or not ), 
+ by using the following command.
+
+    * git --version
+            
+ Now clone  poorna-client-be (project) to your local machine by using the following command with URL.
+   
+    * git  clone https://git.vivasa.in/vivasa-open/poorna-client-be.git
+   
+ Next step enter in to that project by using (cd projectname/). Now make sure you are in
+ that project , next you need to perform the following command .
+
+    * ./gradlew whoami
+            
+ Type the above command and press enter it will ask for email id . enter your email id and press enter.
+ Now start working with our project in your local machine.
+
+
 ### Editor
 WE STRONGLY ADVICE AGAINST ECLIPSE, NETBEANS, IDEA or any other mainstream Java IDE and recommend simple file editors such as Sublime, Atom, TextMate, Textpad etc.,
 
@@ -52,4 +85,4 @@ WE STRONGLY ADVICE AGAINST ECLIPSE, NETBEANS, IDEA or any other mainstream Java 
 ### How to run the test cases
 
 From the root directory of the project: 
-To execute the test case for Class Question1 in package `athletes` use the command: `./gradlew test -Dtest.single='*athletes/Question1'`
+To execute the test case for Class Question1 in package `chelog1` use the command: `./gradlew test -Dtest.single='*chelog1/Question1'`
