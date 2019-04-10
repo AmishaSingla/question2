@@ -34,6 +34,8 @@
 ```
 
 ### Installation
+[![asciicast](https://asciinema.org/a/1TfYlx72vfP9LGuU2RDHuTvOK.svg)](https://asciinema.org/a/1TfYlx72vfP9LGuU2RDHuTvOK)
+
 #### Windows
 
 1. Install Git & Git Bash
