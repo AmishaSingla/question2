@@ -39,7 +39,7 @@
 Git installation on windows
 
 1. Install Git & Git Bash
-    (Note : you should be familiar with basic linux commands)
+      (Note : you should be familiar with basic linux commands)
 
     
     To install git on windows , in browser search like “git for windows”. And download git  
@@ -77,7 +77,63 @@ Git installation on windows
     Now start working with our project in your local machine.
         
 3. Install JDK >= 8
+        (Note : Install JDK if it is not present in your machine)
+    
+
+        Following are steps to install Java in Windows
+        
+        step 1 : Go to the following link. Click on Download JDK. For java latest version.
+           
+        https://www.oracle.com/technetwork/java/javase/downloads/index.html
+       
+        Step 2) Next,
+    
+        Accept License Agreement
+        
+        Download latest Java JDK for your version(32 or 64 bit) of java for Windows.
+        
+        Step 3) Once the download is complete, run the exe for install JDK. Click Next
+        
+        Step 4) Once installation is complete click Close
+   
 4. Configure JAVA_HOME
+     
+     ( Now configure the path)
+
+        The CLASSPATH variable gives location of the Library Files.
+        
+        Let's look into the steps to set the PATH and CLASSPATH
+        
+        Step 1) Right Click on the My Computer and Select the properties
+        
+        Step 2) Click on advanced system settings
+        
+        Step 3) Click on Environment Variables
+        
+        Step 4) Click on new Button of User variables
+        
+        Step 5) Type PATH in the Variable name.
+        
+        Step 6) Copy the path of bin folder which is installed in JDK folder.
+        
+        Step 7) Paste Path of bin folder in Variable value and click on OK Button.
+        
+        Note: In case you already have a PATH variable created in your PC, edit the PATH variable to
+
+        PATH = <JDK installation directory>\bin;%PATH%;
+        Here, %PATH% appends the existing path variable to our new value
+        
+        Step 8) You can follow a similar process to set CLASSPATH.
+
+        Note: In case java installation does not work after installation, change classpath to
+
+        CLASSPATH = <JDK installation directory>\lib\tools.jar;
+        Step 9) Click on OK button
+        
+        Step 10) Go to command prompt and type javac commands.(then you will get to know java is installed or not)
+
+
+ 
 
 #### Linux
 
