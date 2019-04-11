@@ -52,7 +52,7 @@ Git installation on windows
     After downloading git .install it on your local machine by clicking ‘Next’ until you encounter ‘Finish’ option.
     Refer the following link to install Git & Git bash
     
-    https://www.google.com/search?ei=t8GtXNSHDpKymAXyiKOoDQ&q=how+to+install+git+along+with+gitbash+on+windows&oq=how+to+install+git+along+with+gitbash+on+windows&gs_l=psy-ab.3..33i10.82472.97831..100088...0.0..0.133.3228.2j27......0....1..gws-wiz.......0i71j0i13j0i13i30j0j0i7i30j0i8i7i30j0i8i30.-0EmIwpU2uU#kpvalbx=1
+    https://www.youtube.com/watch?v=rWboGsc6CqI
     
     git bash provides you a terminal(so you can work from git bash like linux terminal).
 
