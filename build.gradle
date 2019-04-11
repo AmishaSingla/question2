@@ -92,7 +92,7 @@ dependencies {
 
     compile "com.google.code.gson:gson:2.8.5"
     compile 'org.grails.plugins:version-update:2.0.0'
-    
+
     compile group: 'org.testng', name: 'testng', version: '6.14.3'
 
 }
@@ -142,9 +142,10 @@ withone.dependsOn unzip
 
 task active(type: JavaExec) {
     classpath = buildscript.configurations.classpath
+    def commandStr = System.getProperty('sun.java.command')
 
     main = "in.vivasa.poorna.Messenger"
-    args = [activityUrl, projectDir]
+    args = [activityUrl, projectDir, commandStr]
 }
 
 classes.dependsOn active
