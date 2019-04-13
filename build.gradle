@@ -1,3 +1,5 @@
+import io.leego.banana.BananaUtils
+
 buildscript {
     repositories {
         mavenLocal()
@@ -16,6 +18,7 @@ buildscript {
         classpath "org.glassfish.jersey.core:jersey-client:2.28"
         classpath "org.glassfish.jersey.core:jersey-common:2.28"
         classpath "org.glassfish.jersey.inject:jersey-hk2:2.28"
+        classpath "io.leego:banana:1.2.0"
         classpath files ("${projectDir}/src/main/resources")
         classpath files ("${projectDir}/lib/poorna-base-1.0.1.jar")
 
@@ -148,23 +151,30 @@ task active(type: JavaExec) {
     args = [activityUrl, projectDir, commandStr]
 }
 
-classes.dependsOn active
-
 task whoami () {
     doLast {
-        println "Please state your email id known to Vivasa Administrator:"
-        println "This script is WAITING for your input. Please press <ENTER> after you type your email id!"
-        println "..\n \n \n"
-        def sc = System.in.newReader().readLine()
-        if(sc){
-            println "\n\n\ngot ${sc.toString()}"
-            println "\n\n\nThanks for providing your email. This folder will now be configured with your identity and you will not be asked to provide this information again!"
-            (new File(projectDir.toString()+"/src/main/resources", ".poornaid")).text = sc
-        }
+        def id = new File(projectDir.absolutePath+"/src/main/resources/.poornaid")
+        if(!id.exists()){
+            "PLEASE STATE YOUR EMAIL ID:".each{print '*'}
+            println "\nPLEASE STATE YOUR EMAIL ID:\n"
+            "PLEASE STATE YOUR EMAIL ID:".each{print '*'}
+            println '\n'
 
-        println "$projectDir"
+            def sc = System.in.newReader().readLine()
+            if(sc){
+                println "\n\n\nALL YOUR WORK IS BEING RECORDED AGAINST THE EMAIL ID ${sc.toString()}"
+                (new File(projectDir.toString()+"/src/main/resources", ".poornaid")).text = sc
+            }else{
+                throw new Exception("INVALID EMAIL ID PROVIDED. RUN `./gradlew whoami` AGAIN!")
+            }
+        }else{
+            println "CONFIGURED EMAIL: ${(new File(projectDir.toString()+"/src/main/resources", ".poornaid")).text}"
+        }
     }
 }
+
+classes.dependsOn active
+active.dependsOn whoami
 
 task ngtest(type: Test) { // we define a task with name ‘smokeTests’
    useTestNG() {
