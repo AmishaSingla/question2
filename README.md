@@ -1,7 +1,7 @@
 ## Getting started
 
 ### About this project
-> The use of this project is to help the participants of Poorna program validate their work easily against the test cases packaged along with this project.
+> The use of this project is to help the participants of Poorna program validate their work easily against the test cases packaged.
 
 #### Folder structure
 ```
@@ -33,12 +33,9 @@
 
 ```
 
-### Installation
-[![asciicast](https://asciinema.org/a/1TfYlx72vfP9LGuU2RDHuTvOK.svg)](https://asciinema.org/a/1TfYlx72vfP9LGuU2RDHuTvOK)
+## Installation
 
-#### Windows
-
-Git installation on windows
+### Git on Windows
 
 1. Install Git & Git Bash
       (Note : you should be familiar with basic linux commands)
@@ -57,9 +54,6 @@ Git installation on windows
     git bash provides you a terminal(so you can work from git bash like linux terminal).
 
 2. Using Git Bash
-        
-        
-        
 
     After installing git , it will provide a terminal to run linux commands on windows.
     Now you can check the version of git (whether it got installed or not ), 
@@ -136,9 +130,7 @@ Git installation on windows
         Step 10) Go to command prompt and type javac commands.(then you will get to know java is installed or not)
 
 
- 
-
-#### Linux
+### Git on Linux
 
  Git installation on Linux :
  (Note : you should be familiar with basic linux commands)
@@ -173,14 +165,16 @@ Git installation on windows
  Type the above command and press enter. It will ask for email id , enter your email id and press enter.
  Now start working with our project in your local machine.
 
+### Cloning the project repository
+
+[![asciicast](https://asciinema.org/a/1TfYlx72vfP9LGuU2RDHuTvOK.svg)](https://asciinema.org/a/1TfYlx72vfP9LGuU2RDHuTvOK)
 
 ### Editor
 For this project, WE STRONGLY ADVICE AGAINST ECLIPSE, NETBEANS, IDEA or any other mainstream Java IDE and recommend simple file editors such as Sublime, Atom, TextMate, Textpad etc.,
-
-### Building and executing this project
 
 
 ### How to run the test cases
 
 From the root directory of the project: 
-To execute the test case for Class Question1 in package `chelog1` use the command: `./gradlew test -Dtest.single='*chelog1/Question1'`
+To execute the test case for Class Question1 in package `level100` use the command: `./gradlew test -Dtest.single='*level100/Question1'`
+
