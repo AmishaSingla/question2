@@ -41,7 +41,15 @@ Assuming you installed Git on your local machine, run the following command from
 </pre>
 
 </details>
-## Step 3: Write the code for your exercise
+## Step 3: Configure your email 
+Once you clone the project and you are ready to code, you need to configure your email inside this project. 
+This is done by executing this command from the root directory of the project:
+`./gradlew whoami`
+Provide your email id when the above command prompts you about the same.
+
+If you would like to reconfigure your email, remove the file `.poornaid` from the folder `src/main/resources` using the command `rm src/main/resources .poornaid`
+
+## Step 4: Write the code for your exercise
 * You should have been given one or more challenges with few exercises in each. 
 * In the source directory inside the project (`src/main/java`) you will find dedicated packages created for each challenge. 
 * Source files without implementation are already created for each exercise. 
