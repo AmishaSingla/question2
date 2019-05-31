@@ -6,6 +6,12 @@
 ### About this project
 > The use of this project is to help the participants of Poorna program validate their work easily against the test cases packaged.
 
+## Step1: Clone the repository (How to copy the code of this project into your local machine)
+    Assuming you installed Git on your local machine, you need to use the following command to get a copy of this project's source code
+    
+    `git clone https://git.vivasa.in/vivasa-open/poorna-client-be`
+
+
 #### Folder structure
 <details>
   <summary>Please click here!</summary>
