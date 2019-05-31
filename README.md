@@ -42,12 +42,10 @@ Assuming you installed Git on your local machine, run the following command from
 
 </details>
 ## Step 3: Configure your email 
-Once you clone the project and you are ready to code, you need to configure your email inside this project. 
-This is done by executing this command from the root directory of the project:
-`./gradlew whoami`
-Provide your email id when the above command prompts you about the same.
-
-If you would like to reconfigure your email, remove the file `.poornaid` from the folder `src/main/resources` using the command `rm src/main/resources .poornaid`
+* Once you clone the project and you are ready to code, you need to configure your email inside this project
+* This is done by executing this command from the root directory of the project: `./gradlew whoami`
+* Provide your email id when the above command prompts you for it
+* If you would like to reconfigure your email, remove the file `.poornaid` from the folder `src/main/resources` using the command `rm src/main/resources .poornaid`
 
 ## Step 4: Write the code for your exercise
 * You should have been given one or more challenges with few exercises in each. 
@@ -55,7 +53,13 @@ If you would like to reconfigure your email, remove the file `.poornaid` from th
 * Source files without implementation are already created for each exercise. 
 * Locate the correct source file and code your solution.
 
-
+## Step 5: Evaluate your solution
+* The project has inbuilt test code that validates your solution. 
+* Run the following command to see if your solution is correct `./gradlew test -Dtest.single='*<X>/Question<Y>'`
+* Replace `<X>` with challenge name ('level100', 'collegemajor' or 'chelog') and `<Y>` with Question Number before executing
+* If you see that the command runs and produces "Build Successful", then it means that your solution is correct
+* Correct solutions automatically get submitted to our evaluation server
+* If you see "Build Failure", it means your solution is incorrect and you need to continue modifying your code
 
 ### Cloning the project repository
 
