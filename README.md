@@ -4,6 +4,9 @@
 > The use of this project is to help the participants of Poorna program validate their work easily against the test cases packaged.
 
 #### Folder structure
+<details><summary>Please click here!</summary>
+<p>
+
 ```
 .
 ├── bin/
@@ -32,6 +35,10 @@
     └── main --> Application code lives here
 
 ```
+
+</p>
+</details>
+
 
 ## Installation
 
