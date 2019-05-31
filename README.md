@@ -9,14 +9,8 @@ This project uses (gradle)[https://gradle.org/] as its build management tool. Bu
 #### Folder structure
 <details><summary>Please click here!</summary>
 
-  ```javascript
-    function whatIsLove() {
-      console.log('Baby Don't hurt me. Don't hurt me');
-      return 'No more';
-    }
-  ```
-  
-  ```
+
+  <code>
 
 .
 ├── bin/
@@ -44,7 +38,7 @@ This project uses (gradle)[https://gradle.org/] as its build management tool. Bu
     ├── test --> Code related to Test cases lives here
     └── main --> Application code lives here
 
-  ```
+  </code>
 
 
 </details>
