@@ -10,7 +10,7 @@ This project uses (gradle)[https://gradle.org/] as its build management tool. Bu
 <details><summary>Please click here!</summary>
 
 
-<pre>
+<code>
 .
 ├── bin/
 ├── build/
@@ -37,7 +37,7 @@ This project uses (gradle)[https://gradle.org/] as its build management tool. Bu
     ├── test --> Code related to Test cases lives here
     └── main --> Application code lives here
 
-</pre>
+</code>
 
 
 </details>
