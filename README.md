@@ -5,7 +5,7 @@
 
 #### Folder structure
 <details><summary>Please click here!</summary>
-<p>
+
 
 ```
 .
@@ -36,7 +36,7 @@
 
 ```
 
-</p>
+
 </details>
 
 
