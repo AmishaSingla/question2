@@ -7,11 +7,9 @@ This project uses (gradle)[https://gradle.org/] as its build management tool. Bu
 > The use of this project is to help the participants of Poorna program validate their work easily against the test cases packaged.
 
 #### Folder structure
-<details><summary>Please click here!</summary>
-
-
+<details>
+  <summary>Please click here!</summary>
   <code>
-
 .
 ├── bin/
 ├── build/
