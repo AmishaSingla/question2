@@ -1,5 +1,8 @@
 ## Getting started
-
+### Prerequisites
+* JDK 1.8 or higher is needed to build and execute this project
+* To clone this project (to get a copy of this project code) to your local machine, you need Git to be installed
+This project uses (gradle)[https://gradle.org/] as its build management tool. But installing 
 ### About this project
 > The use of this project is to help the participants of Poorna program validate their work easily against the test cases packaged.
 
