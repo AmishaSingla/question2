@@ -7,7 +7,7 @@
 <details><summary>Please click here!</summary>
 
 
-```python
+<pre>
 .
 ├── bin/
 ├── build/
@@ -34,7 +34,7 @@
     ├── test --> Code related to Test cases lives here
     └── main --> Application code lives here
 
-```
+</pre>
 
 
 </details>
